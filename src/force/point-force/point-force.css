@@ -1,0 +1,13 @@
+.point-force {
+    border: 1px solid black;
+}
+
+.link {
+    fill: none;
+    stroke: rgba(120, 120, 120, 0.67);
+    stroke-width: 1px;
+}
+
+.node {
+    /*fill: black;*/
+}

@@ -1,0 +1,51 @@
+{
+    "type": "DAG",
+    "icon": "brands.svg#drupal",
+    "id": "1",
+    "children": [
+        {
+            "type": "Kafka",
+            "icon": "brands.svg#dyalog",
+            "id": "2"
+        },
+        {
+            "type": "DFS",
+            "icon": "brands.svg#ebay",
+            "id": "3",
+            "children": [
+                {
+                    "type": "ICE",
+                    "icon": "brands.svg#asymmetrik",
+                    "id": "4"
+                },
+                {
+                    "type": "DSS",
+                    "icon": "brands.svg#firstdraft",
+                    "id": "5"
+                }
+            ]
+        },
+        {
+            "type": "Flume",
+            "icon": "brands.svg#audible",
+            "id": "6"
+        },
+        {
+            "type": "DSS",
+            "icon": "brands.svg#bandcamp",
+            "id": "7",
+            "children": [
+                {
+                    "type": "ES",
+                    "icon": "brands.svg#contao",
+                    "id": "8"
+                }
+            ]
+        },
+        {
+            "type": "Flume",
+            "icon": "brands.svg#audible",
+            "id": "9"
+        }
+    ]
+}

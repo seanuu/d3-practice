@@ -1,0 +1,19 @@
+.voronoi-line-chart {
+    overflow: visible;
+}
+
+.tick line {
+    stroke-dasharray: 2,2;
+}
+
+.stroke-line {
+    stroke: #000000;
+    stroke-width: 1px;
+}
+
+.voronoi-path {
+    fill: none;
+    stroke: rgba(0, 0, 0, 0.42);
+    stroke-width: 1px;
+    pointer-events: all;
+}

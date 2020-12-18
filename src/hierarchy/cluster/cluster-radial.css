@@ -1,0 +1,22 @@
+.link {
+    fill: none;
+    opacity: 0.65;
+}
+
+.text {
+    cursor: default;
+    font-size: 8px;
+}
+
+.node-hovered .text {
+    font-size: 12px;
+    fill: rgba(255, 11, 14, 0.67)
+}
+
+.node-hovered .circle {
+    fill: rgba(255, 11, 14, 0.67)
+}
+
+.link-hovered {
+    stroke: rgba(0, 0, 0, 0.67)
+}

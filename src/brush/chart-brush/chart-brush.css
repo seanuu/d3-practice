@@ -1,0 +1,24 @@
+.interactive-bar {
+    fill: none;
+    pointer-events: all;
+}
+
+.interactive-line {
+    fill: none;
+    stroke: black;
+    stroke-dasharray: 4, 4;
+}
+
+.interactive-text {
+    fill: #000000;
+    text-anchor: start;
+}
+
+.brush-line path, .data-line path {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+}
+.tick line {
+    stroke-dasharray: 2,2;
+}
